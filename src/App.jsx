@@ -1,9 +1,10 @@
 import './App.css'
+import { TopHeader } from './TopHeader'
 
 function App () {
   return (
     <>
-      <h1>Portfolio</h1>
+      <TopHeader />
     </>
   )
 }
