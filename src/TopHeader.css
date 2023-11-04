@@ -1,8 +1,13 @@
 header#th {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: rgb(30 30 40);
   color: rgb(255 255 255);
   fill: rgb(255 255 255);
   line-height: 1.5;
+  z-index: 100;
 }
 
 #th-wrapper {
