@@ -1,6 +1,7 @@
 import './App.css'
 import { Banner } from './components/Banner'
 import { MainNav } from './components/MainNav'
+import { ProjectsContainer } from './components/ProjectsContainer'
 
 function App () {
   return (
@@ -8,6 +9,7 @@ function App () {
       <main id='main'>
         <Banner />
         <MainNav />
+        <ProjectsContainer />
       </main>
     </>
   )

@@ -1,4 +1,4 @@
-import { Github, Twitter } from '../assets/icons/SocialIcons'
+import { Github, Twitter } from '../assets/icons/Icons'
 import './Banner.css'
 
 export const Banner = () => {

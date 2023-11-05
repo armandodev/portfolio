@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Tic Tac Toe",
+      "description": "Tic Tac Toe game developed in React",
+      "tags": ["React", "JavaScript", "HTML", "CSS", "Game"],
+      "source": "https://github.com/ArmandoDev/tic-tac-toe",
+      "visit": "https://armandodev.netlify.app/tic-tac-toe/"
+    },
+    {
+      "id": 2,
+      "title": "Cursor follower",
+      "description": "Cursor follower developed in React",
+      "tags": ["React", "JavaScript", "HTML", "CSS"],
+      "source": "https://github.com/ArmandoDev/cursor-follower",
+      "visit": "https://armandodev.netlify.app/cursor-follower/"
+    },
+    {
+      "id": 3,
+      "title": "Movie search",
+      "description": "Movie search developed in React",
+      "tags": ["React", "JavaScript", "HTML", "CSS", "API"],
+      "source": "https://github.com/ArmandoDev/movie-search",
+      "visit": "https://armandodev.netlify.app/movie-search/"
+    }
+  ]
+}
+
