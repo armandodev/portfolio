@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .th-nav-list {
@@ -12,6 +13,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  padding: 0 1rem;
+  max-width: 1200px;
 }
 
 .th-nav-list-item-link {

@@ -6,6 +6,13 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+section {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+}
+
 .cursor {
   display: none;
 }
@@ -29,4 +36,13 @@ body {
 
 .social-icon {
   fill: inherit;
+  transition: fill 200ms ease-in-out;
+  -webkit-transition: fill 200ms ease-in-out;
+  -moz-transition: fill 200ms ease-in-out;
+  -ms-transition: fill 200ms ease-in-out;
+  -o-transition: fill 200ms ease-in-out;
+}
+
+.social-icon:hover {
+  fill: rgb(250 112 97);
 }

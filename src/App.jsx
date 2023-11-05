@@ -5,7 +5,7 @@ import { MainNav } from './components/MainNav'
 function App () {
   return (
     <>
-      <main>
+      <main id='main'>
         <Banner />
         <MainNav />
       </main>
