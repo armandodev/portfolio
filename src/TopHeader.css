@@ -3,7 +3,8 @@ header#th {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(30 30 40);
+  height: 68px;
+  background: rgb(45 45 55);
   color: rgb(255 255 255);
   fill: rgb(255 255 255);
   line-height: 1.5;
@@ -63,11 +64,11 @@ header#th {
   display: block;
   padding: 0 0.75rem calc(1rem - 5px) 0.75rem;
   border-bottom: 5px solid transparent;
-  transition: border-bottom 200ms ease-in-out;
-  -webkit-transition: border-bottom 200ms ease-in-out;
-  -moz-transition: border-bottom 200ms ease-in-out;
-  -ms-transition: border-bottom 200ms ease-in-out;
-  -o-transition: border-bottom 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
 }
 
 .th-nav-list-item-link.active {
@@ -77,6 +78,7 @@ header#th {
 
 
 .th-nav-list-item-link:hover {
+  color: #fa7062;
   border-bottom: 5px solid #fa7062;
 }
 
