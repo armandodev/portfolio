@@ -1,4 +1,4 @@
-import { Github, Twitter } from '../assets/icons/Icons'
+import { Github, LinkedIn, Twitter } from '../assets/icons/Icons'
 import './Banner.css'
 
 export const Banner = () => {
@@ -24,12 +24,18 @@ export const Banner = () => {
               rel='noopener noreferrer'
               aria-label='GitHub'
             >
-              <Github
-                className='social-icon'
-                width='2rem'
-                height='2rem'
-                alt='GitHub'
-              />
+              <Github />
+            </a>
+          </li>
+          <li className='m-banner-social-nav-list-item'>
+            <a
+              className='m-banner-social-nav-list-item-link'
+              href='https://github.com/ArmandoDev'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='LinkedIn'
+            >
+              <LinkedIn />
             </a>
           </li>
           <li className='m-banner-social-nav-list-item'>
@@ -40,12 +46,7 @@ export const Banner = () => {
               rel='noopener noreferrer'
               aria-label='Twitter'
             >
-              <Twitter
-                className='social-icon'
-                width='2rem'
-                height='2rem'
-                alt='Twitter'
-              />
+              <Twitter />
             </a>
           </li>
         </ul>

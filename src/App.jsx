@@ -1,5 +1,6 @@
 import './App.css'
 import { Banner } from './components/Banner'
+import { Footer } from './components/Footer'
 import { MainNav } from './components/MainNav'
 import { ProjectsContainer } from './components/ProjectsContainer'
 
@@ -10,6 +11,7 @@ function App () {
         <Banner />
         <MainNav />
         <ProjectsContainer />
+        <Footer />
       </main>
     </>
   )
