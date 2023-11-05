@@ -21,6 +21,7 @@
   text-decoration: none;
   color: inherit;
   display: block;
+  font-size: 0.9rem;
   padding: 0 0.75rem calc(1rem - 5px) 0.75rem;
   border-bottom: 5px solid transparent;
   transition: all 200ms ease-in-out;
@@ -38,4 +39,10 @@
 .th-nav-list-item-link:hover {
   color: rgb(250 112 97);
   border-bottom: 5px solid rgb(250 112 97);
+}
+
+@media screen and (max-width: 480px) {
+  .th-nav-list-item-link {
+    padding: 0 0.5rem calc(1rem - 5px) 0.5rem;
+  }
 }

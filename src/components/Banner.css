@@ -59,3 +59,33 @@
     color: rgb(255 107 107);
   }
 }
+
+@media screen and (max-width: 720px) {
+  .m-banner-username {
+    font-size: 3rem;
+  }
+
+  .m-banner-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .m-banner-username {
+    font-size: 2rem;
+  }
+
+  .m-banner-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .m-banner-username {
+    font-size: 1.5rem;
+  }
+
+  .m-banner-title {
+    font-size: 0.8rem;
+  }
+}

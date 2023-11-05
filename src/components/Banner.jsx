@@ -26,8 +26,8 @@ export const Banner = () => {
             >
               <Github
                 className='social-icon'
-                width='32'
-                height='32'
+                width='1.5rem'
+                height='1.5rem'
                 alt='GitHub'
               />
             </a>
@@ -42,8 +42,8 @@ export const Banner = () => {
             >
               <Twitter
                 className='social-icon'
-                width='32'
-                height='32'
+                width='1.5rem'
+                height='1.5rem'
                 alt='Twitter'
               />
             </a>
