@@ -1,0 +1,60 @@
+#m-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.m-banner-username {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  animation: color-gradient-change 10s ease-in-out infinite;
+}
+
+.m-banner-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  opacity: 0.8;
+  text-align: center;
+  margin: 0;
+}
+
+.m-banner-social-nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.m-banner-social-nav-list-item-link {
+  display: flex;
+  text-decoration: none;
+}
+
+@keyframes color-gradient-change {
+  0% {
+    color: rgb(255 107 107);
+  }
+  20% {
+    color: rgb(255 178 94);
+  }
+  40% {
+    color: rgb(255 234 94);
+  }
+  60% {
+    color: rgb(164 255 107);
+  }
+  80% {
+    color: rgb(107 255 212);
+  }
+  100% {
+    color: rgb(255 107 107);
+  }
+}

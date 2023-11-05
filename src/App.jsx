@@ -1,10 +1,14 @@
 import './App.css'
-import { TopHeader } from './TopHeader'
+import { Banner } from './components/Banner'
+import { MainNav } from './components/MainNav'
 
 function App () {
   return (
     <>
-      <TopHeader />
+      <main>
+        <Banner />
+        <MainNav />
+      </main>
     </>
   )
 }
