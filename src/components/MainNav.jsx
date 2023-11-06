@@ -1,14 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
 import './css/MainNav.css'
 
-// aria-current='page', esto va en el elemento con la clase active
-export const MainNav = () => {
-  const [currentPage, setCurrentPage] = useState('Projects')
-
-  const currentProjects = currentPage === 'Projects'
-  const currentStack = currentPage === 'Stack'
-  const currentAbout = currentPage === 'About'
-  const currentContact = currentPage === 'Contact'
+export const MainNav = ({ currentPage, handlePageChange }) => {
+  const handleNavigation = (event, page) => {
+    event.preventDefault()
+    handlePageChange(page)
+  }
 
   return (
     <nav id='nav' aria-label='Main Navigation' className='nav'>
@@ -16,40 +13,40 @@ export const MainNav = () => {
       <ul className='nav-list'>
         <li className='nav-list-item'>
           <a
-            className={currentProjects ? 'nav-list-item-link active' : 'nav-list-item-link'}
             href='#projects'
-            onClick={() => setCurrentPage('Projects')}
-            {...currentProjects && { 'aria-current': 'page' }}
+            className={currentPage === 'Projects' ? 'nav-list-item-link active' : 'nav-list-item-link'}
+            onClick={(event) => handleNavigation(event, 'Projects')}
+            aria-current={currentPage === 'Projects' ? 'page' : undefined}
           >
             Projects
           </a>
         </li>
         <li className='nav-list-item'>
           <a
-            className={currentStack ? 'nav-list-item-link active' : 'nav-list-item-link'}
             href='#stack'
-            {...currentStack && { 'aria-current': 'page' }}
-            onClick={() => setCurrentPage('Stack')}
+            className={currentPage === 'Stack' ? 'nav-list-item-link active' : 'nav-list-item-link'}
+            onClick={(event) => handleNavigation(event, 'Stack')}
+            aria-current={currentPage === 'Stack' ? 'page' : undefined}
           >
             Stack
           </a>
         </li>
         <li className='nav-list-item'>
           <a
-            className={currentAbout ? 'nav-list-item-link active' : 'nav-list-item-link'}
             href='#about'
-            {...currentAbout && { 'aria-current': 'page' }}
-            onClick={() => setCurrentPage('About')}
+            className={currentPage === 'About' ? 'nav-list-item-link active' : 'nav-list-item-link'}
+            onClick={(event) => handleNavigation(event, 'About')}
+            aria-current={currentPage === 'About' ? 'page' : undefined}
           >
             About
           </a>
         </li>
         <li className='nav-list-item'>
           <a
-            className={currentContact ? 'nav-list-item-link active' : 'nav-list-item-link'}
             href='#contact'
-            {...currentContact && { 'aria-current': 'page' }}
-            onClick={() => setCurrentPage('Contact')}
+            className={currentPage === 'Contact' ? 'nav-list-item-link active' : 'nav-list-item-link'}
+            onClick={(event) => handleNavigation(event, 'Contact')}
+            aria-current={currentPage === 'Contact' ? 'page' : undefined}
           >
             Contact
           </a>
