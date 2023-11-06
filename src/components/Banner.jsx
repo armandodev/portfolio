@@ -1,5 +1,5 @@
 import { Github, LinkedIn, Twitter } from '../assets/icons/Icons'
-import './Banner.css'
+import './css/Banner.css'
 
 export const Banner = () => {
   return (

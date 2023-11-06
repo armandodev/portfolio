@@ -11,8 +11,8 @@ function App () {
         <Banner />
         <MainNav />
         <ProjectsContainer />
-        <Footer />
       </main>
+      <Footer />
     </>
   )
 }

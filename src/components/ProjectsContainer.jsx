@@ -1,6 +1,6 @@
 import json from './../mocks/projects.json'
 import { ProjectCard } from './ProjectCard'
-import './ProjectsContainer.css'
+import './css/ProjectsContainer.css'
 
 export const ProjectsContainer = () => {
   const projects = json.projects

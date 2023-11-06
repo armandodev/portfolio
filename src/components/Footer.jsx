@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import './Footer.css'
+import './css/Footer.css'
 import { Github, LinkedIn, Twitter } from '../assets/icons/Icons'
 
 export const Footer = () => {

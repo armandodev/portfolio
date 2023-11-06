@@ -1,5 +1,5 @@
 import { Github, PlusCircle } from '../assets/icons/Icons'
-import './ProjectCard.css'
+import './css/ProjectCard.css'
 
 export const ProjectCard = ({ project }) => {
   const { id, title, description, tags, source, visit } = project
