@@ -1,0 +1,44 @@
+{
+  "stack": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "icon": "https://img.icons8.com/color/48/000000/react-native.png"
+    },
+    {
+      "id": 5,
+      "name": "Node.js",
+      "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+      "id": 6,
+      "name": "PHP",
+      "icon": "https://img.icons8.com/officel/48/000000/php-logo.png"
+    },
+    {
+      "id": 7,
+      "name": "Git",
+      "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+      "id": 8,
+      "name": "GitHub",
+      "icon": "https://img.icons8.com/color/48/000000/github--v1.png"
+    }
+  ]
+}
