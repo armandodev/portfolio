@@ -21,6 +21,8 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  filter: brightness(40%) grayscale(30%) saturate(80%);
+  -webkit-filter: brightness(40%) grayscale(30%) saturate(80%);
 }
 
 .about-experience, .about-education {

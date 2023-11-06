@@ -13,7 +13,7 @@ export const About = () => {
     <section id='about-section'>
       <article className='about-summary'>
         <img
-          src='./../assets/images/armandodev.jpg'
+          src='/armandodev.jpg'
           alt='Image of Jorge Armando Ceras Cárdenas'
           className='about-image'
         />
