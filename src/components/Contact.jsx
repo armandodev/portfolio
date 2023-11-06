@@ -7,12 +7,12 @@ export const Contact = () => {
         <h3>Contact Info</h3>
         <p>
           <span>Phone:</span>
-          <a href='tel:+523328298224'>+52 (33) 2829 8224</a>
+          <a href='tel:+523328298224'>&nbsp;+52 (33) 2829 8224</a>
         </p>
         <p>
           <span>Email:</span>
           <a href='mailto: jorge.armando.c.cardenas@gmail.com'>
-            jorge.armando.c.cardenas@gmail.com
+            &nbsp;jorge.armando.c.cardenas@gmail.com
           </a>
         </p>
       </article>
