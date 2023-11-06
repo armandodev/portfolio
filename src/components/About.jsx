@@ -1,7 +1,76 @@
+import experienceData from './../mocks/experience.json'
+import educationData from './../mocks/education.json'
+import './css/About.css'
+
 export const About = () => {
+  const experience = experienceData.experience
+  const education = educationData.education
+
+  const hasExperience = experience?.length > 0
+  const hasEducation = education?.length > 0
+
   return (
-    <section id='about'>
-      <h1>About</h1>
+    <section id='about-section'>
+      <article className='about-summary'>
+        <img
+          src='https://yt3.googleusercontent.com/Y66nBo6hxt33NN7jNNjpamS62Acfu8FuOrEkT4060O9nxwWKJuASoY54YEbmF3kcRIIb5MJx=s900-c-k-c0x00ffffff-no-rj'
+          alt='Image of Jorge Armando Ceras Cárdenas'
+          className='about-image'
+        />
+        <p>
+          I am a passionate full-stack web developer with three years of
+          experience in creating attractive and functional websites. My career
+          has been marked by the ability to learn autonomously and stay
+          up-to-date with the latest trends and technologies in the field.
+          Furthermore, I am currently pursuing a bachelor's degree in systems
+          engineering, which reflects my ongoing commitment to excellence in the
+          web development industry.
+        </p>
+      </article>
+
+      <article className='about-experience'>
+        <h3 className='about-subtitle'>Experience</h3>
+        <ul className='about-list'>
+          {hasExperience
+            ? (
+                experience.map((item) => (
+                  <li key={item.id} className='about-item'>
+                    <h4 className='about-item-title'>{item.company}</h4>
+                    <p className='about-item-date'>
+                      {item.start_date} - {item.end_date}
+                    </p>
+                    <p className='about-item-role'>{item.title}</p>
+                    <p className='about-item-description'>{item.description}</p>
+                  </li>
+                ))
+              )
+            : (
+              <li className='about-item'>Coming soon</li>
+              )}
+        </ul>
+      </article>
+
+      <article className='about-education'>
+        <h3 className='about-subtitle'>Education</h3>
+        <ul className='about-list'>
+          {hasEducation
+            ? (
+                education.map((item) => (
+                  <li key={item.id} className='about-item'>
+                    <h4 className='about-item-title'>{item.school}</h4>
+                    <p className='about-item-degree'>{item.degree}</p>
+                    <p className='about-item-state'>{item.state}</p>
+                    <p className='about-item-date'>
+                      {item.start_date} - {item.end_date}
+                    </p>
+                  </li>
+                ))
+              )
+            : (
+              <li className='about-item'>Coming soon</li>
+              )}
+        </ul>
+      </article>
     </section>
   )
 }

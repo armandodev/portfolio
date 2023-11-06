@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "school": "University of California, Berkeley",
+      "degree": "B.A. in Computer Science",
+      "state": "Graduated",
+      "start_date": "August 2013",
+      "end_date": "May 2017"
+    },
+    {
+      "id": 2,
+      "school": "University of California, Berkeley",
+      "degree": "B.A. in Economics",
+      "state": "In Progress",
+      "start_date": "August 2013",
+      "end_date": ""
+    }
+  ]
+}
