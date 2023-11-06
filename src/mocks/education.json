@@ -2,19 +2,11 @@
   "education": [
     {
       "id": 1,
-      "school": "University of California, Berkeley",
-      "degree": "B.A. in Computer Science",
-      "state": "Graduated",
-      "start_date": "August 2013",
-      "end_date": "May 2017"
-    },
-    {
-      "id": 2,
-      "school": "University of California, Berkeley",
-      "degree": "B.A. in Economics",
-      "state": "In Progress",
-      "start_date": "August 2013",
-      "end_date": ""
+      "school": "Centro de estudios tecnológicos industrial y de servicios 121",
+      "degree": "Especialidad en programación",
+      "state": "In progress",
+      "start_date": "August 2021",
+      "end_date": "June 2024"
     }
   ]
 }
