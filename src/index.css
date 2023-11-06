@@ -11,6 +11,10 @@ img {
   max-width: 100%;
 }
 
+main {
+  background: #282830;
+}
+
 section {
   padding: 3rem 1rem;
   box-sizing: border-box;
