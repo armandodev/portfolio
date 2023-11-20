@@ -11,12 +11,20 @@ export const About = () => {
 
   return (
     <section id='about-section'>
-      <article className='about-summary'>
+      <header className='about-header'>
         <img
           src='/armandodev.jpg'
           alt='Image of Jorge Armando Ceras Cárdenas'
           className='about-image'
         />
+        <h3 className='about-name'>Jorge Armando Ceras Cárdenas</h3>
+        <p className='about-username'>@armandodev</p>
+        <p className='about-occupation'>
+          Full-stack web developer | Systems engineering student
+        </p>
+      </header>
+
+      <article className='about-summary'>
         <p>
           I am a passionate full-stack web developer with three years of
           experience in creating attractive and functional websites. My career
