@@ -17,11 +17,13 @@ export const About = () => {
           alt='Image of Jorge Armando Ceras Cárdenas'
           className='about-image'
         />
-        <h3 className='about-name'>Jorge Armando Ceras Cárdenas</h3>
-        <p className='about-username'>@armandodev</p>
-        <p className='about-occupation'>
-          Full-stack web developer | Systems engineering student
-        </p>
+        <div className='about-me'>
+          <h3 className='about-name'>Jorge Armando Ceras Cárdenas</h3>
+          <p className='about-username'>@armandodev</p>
+          <p className='about-occupation'>
+            Full-stack web developer | Systems engineering student
+          </p>
+        </div>
       </header>
 
       <article className='about-summary'>
