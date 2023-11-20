@@ -6,26 +6,52 @@
   place-items: center;
 }
 
-.about-summary p {
-  width: 90%;
-  max-width: 400px;
-  font-size: 1.2rem;
-  opacity: 0.8;
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .about-image {
-  width: 90%;
-  max-width: 400px;
+  width: 150px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  filter: brightness(40%) grayscale(30%) saturate(80%);
-  -webkit-filter: brightness(40%) grayscale(30%) saturate(80%);
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
 }
 
-.about-experience, .about-education {
+.about-me > * {
+  margin: 0;
+  padding: 0;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.about-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.about-username {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.about-occupation {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.about-experience,
+.about-education {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -52,11 +78,11 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 
 .about-item-title,
@@ -65,7 +91,7 @@
 .about-item-state {
   font-size: 1.2rem;
   opacity: 0.8;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .about-item-date {
@@ -78,4 +104,14 @@
   font-size: 0.9rem;
   opacity: 0.8;
   margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-header {
+    flex-direction: column;
+  }
+
+  .about-me {
+    text-align: center;
+  }
 }

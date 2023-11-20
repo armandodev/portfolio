@@ -21,22 +21,10 @@ export const About = () => {
           <h3 className='about-name'>Jorge Armando Ceras Cárdenas</h3>
           <p className='about-username'>@armandodev</p>
           <p className='about-occupation'>
-            Full-stack web developer | Systems engineering student
+            Full-stack web developer
           </p>
         </div>
       </header>
-
-      <article className='about-summary'>
-        <p>
-          I am a passionate full-stack web developer with three years of
-          experience in creating attractive and functional websites. My career
-          has been marked by the ability to learn autonomously and stay
-          up-to-date with the latest trends and technologies in the field.
-          Furthermore, I am currently pursuing a bachelor's degree in systems
-          engineering, which reflects my ongoing commitment to excellence in the
-          web development industry.
-        </p>
-      </article>
 
       <article className='about-experience'>
         <h3 className='about-subtitle'>Experience</h3>
