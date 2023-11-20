@@ -1,4 +1,4 @@
-import { Github, PlusCircle } from '../assets/icons/Icons'
+import { Github, Link } from '../assets/icons/Icons'
 import './css/ProjectCard.css'
 
 export const ProjectCard = ({ project }) => {
@@ -28,7 +28,6 @@ export const ProjectCard = ({ project }) => {
             className='social-icon'
             width='2rem'
             height='2rem'
-            alt={`GitHub icon for ${title}`}
           />
         </a>
         <a
@@ -37,11 +36,10 @@ export const ProjectCard = ({ project }) => {
           rel='noopener noreferrer'
           aria-label={`Visit link for ${title}`}
         >
-          <PlusCircle
+          <Link
             className='social-icon'
             width='2rem'
             height='2rem'
-            alt={`Visit icon for ${title}`}
           />
         </a>
       </div>
