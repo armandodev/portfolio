@@ -1,9 +1,13 @@
 ---
 import Vinil from "@/components/Vinil.astro";
 import CodeShapes from "@/components/CodeShapes.astro";
+import Facebook from "@/components/icons/Facebook.astro";
+import Instagram from "@/components/icons/Instagram.astro";
+import Twitter from "@/components/icons/Twitter.astro";
+import Github from "@/components/icons/Github.astro";
 ---
 
-<article class="grid place-items-center min-h-screen">
+<article class="flex flex-col items-center justify-center gap-4 min-h-screen">
   <Vinil />
   <CodeShapes />
 
@@ -13,4 +17,41 @@ import CodeShapes from "@/components/CodeShapes.astro";
       <strong class="block text-2xl font-normal">Web Developer &amp; DJ</strong>
     </h1>
   </section>
+
+  <nav>
+    <ul class="flex items-center justify-center gap-2 fill-[#3F3F46]">
+      <li>
+        <a href="#" target="_blank" aria-label="Facebook">
+          <Facebook />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://instagram.com/armandodev_"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <Instagram />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/armandodev_"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <Twitter />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/armandodev"
+          target="_blank"
+          aria-label="Github"
+        >
+          <Github />
+        </a>
+      </li>
+    </ul>
+  </nav>
 </article>
