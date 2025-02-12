@@ -82,5 +82,26 @@
         "name": "Tailwind CSS"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "MixSync",
+    "description": "Sitio para obtener una busqueda de Spotify o Youtube, para conseguir el link de la canción o poder copiar un nombre de archivo para un mp3 a partir de la información de la canción",
+    "repo": "https://github.com/armandodev/mixsync",
+    "url": "https://armandodev-restaurant.vercel.app/",
+    "languages": [
+      {
+        "id": 1,
+        "name": "TypeScript"
+      },
+      {
+        "id": 2,
+        "name": "React"
+      },
+      {
+        "id": 3,
+        "name": "Tailwind CSS"
+      }
+    ]
   }
 ]
